@@ -27,21 +27,33 @@
 		<h4>Heading 4</h4>
 		<h5>Heading 5</h5>
 		<h6>Heading 6</h6>
-		<!--
+		<!--Unorded list. i.e. bullets-->
 		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
+			<li>bullet 1</li>
+			<li>bullet 2</li>
+			<li>bullet 3</li>
 		</ul>
+		<!--Ordered list means it will be numbered.-->
 		<ol>
-			<li></li>
-			<li></li>
-			<li></li>
+			<!--Links need the https:// at the beginning in order to actually work-->
+			<li><strong><a href="https://google.com">click here to go to google</a></strong></li>
+			<li>number 2</li>
+			<li>number 3</li>
 		</ol>
-		<code></code>
-		<br>
-		<div></div>
-		<span></span>
-		-->
+		<!--code means it will be code... like python-->
+		<code>printf("Hello, world.");</code>
+		<!--div and span don't really have any semantic meaning-->
+		<!--Notice how you need the "." in front of the class youi make in the css file to use this-->
+		<!--Then we call the class by using the classes name in quotes.-->
+		<div class = "red">These are container tags</div>
+		<span class = "green">This is another container tag</span>
+		<div>is a block element</div>
+		<p>
+			This <span class = "blue">is</span> is how span works... it's in line.
+		</p>
+
+		<p>
+			This is how <div class = "green">div works.</div>  It puts things on new lines.
+		</p>
 	</body>
 </html>
